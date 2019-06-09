@@ -10,9 +10,9 @@
   - Class component requires you to extend from React.Component and create render to return a react element, class components give you more benefits than a functional component. Stateful components are class components but with state being initialized in the constructor.
 
   - Presentational components are primarily concerned with how things look, rarely have state properties. Functional component accepts props as the argument and is just a plain JavaScript function.
-  
+
 1.  Describe state.
-    - State is managed by the component and can be changed by the state.
+  - State is managed by the component and can be changed by the state.
 
 1.  Describe props.
-    - Props is passsed from a parent component to the child component, props are readonly.
+  - Props is passsed from a parent component to the child component, props are readonly.
