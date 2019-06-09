@@ -25,13 +25,17 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+  - React JS is an interactive UI library that is JavaScript like HTML and the problems it tries to solve is the use of the virtual DOM for faster development of the UI app, Reusability of components throughout the entire applications, which can help save time in the development process, and uses of real and fully featured programming language that renders view. 
 
 - [ ] What does it mean to _think_ in react?
+  - First you must break down the UI into components to understand the parent/child relationship, then build a static app with no interactivity, identify where to use state then figure out where state should live, decide how the hierarchy will function for props and state to flow down accordingly.
 
 - [ ] Describe state.
+  - State is managed by the component and can be changed by the state.
 
 - [ ] Describe props.
-
+  - Props is passsed from a parent component to the child component, props are readonly.
+  
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
