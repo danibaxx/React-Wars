@@ -8,7 +8,6 @@ const Character = props => {
       <p>Eye Color: {props.swItem.eye_color}</p>
       <p>Gender: {props.swItem.gender}</p>
       <p>Birth Year: {props.swItem.birth_year}</p>
-      <hr/>
     </div>
   );
 };
