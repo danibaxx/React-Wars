@@ -6,10 +6,10 @@ import Character from './Character';
 const CharacterList = props => {
   return (
     <div className='container'>
-      {props.swItem.map((item, index) => 
+      {props.swItem.map(item => 
       <Character 
         swItem={item} 
-        key={index}
+        key={item.name}
       />)}
     </div>
   );
